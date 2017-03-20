@@ -10,17 +10,15 @@ Working Clover configuration for z97x-ud5h, i7-4790K, GTX 760
 * macOS Sierra (originally Yoesmite)
 
 ## What's Working
+* Sleep, shutdown, and restarting works
+* Have not tested USB3 yet and am using USB2 for sound
+* Full graphics acceleration with the NVidia Web Drivers / Cuda Drivers
+* "About this Mac" correctly reports memory and graphics.
+
 This system is running stable for the most part. However, I had TONS of issues getting this running on Sierra, so I thought I'd put this up here to help other people out. And if anyone sees any room for improvement, let me know. I'm still in the process of tweaking this install.
 
-Sleep, shutdown, and restarting works, using USB for sound, have not tested USB3 yet. And with the NVidia Web Drivers / Cuda Drivers, I have full graphics acceleration.
-
-"About this Mac" correctly reports memory and graphics.
-
 ## What's Not Working
-* Spotlight broke since I directly upgraded to Sierra. This is a known Sierra issue. So if you value searching for stuff, please do a clean install.
-* Chrome, Sierra, and Gmail do not seem to like each other. They crash the browser every time. Strange thing is, Vivaldi works perfectly. And it's based on the Chromium engine as well. So, yeah...
-* Transmit soft-freezes the computer for a few seconds every time you connect or start manipulating files on the server. However, Forklift 3 has no such issues.
-* iCloud doesn't work. There are steps for fixing this, but I'm leaving that for last.
+* See list of issues
 
 ## Brief Instructions (not finished)
 1. Use TonyMac's guide to create a bootable USB: https://www.tonymacx86.com/threads/unibeast-install-macos-sierra-on-any-supported-intel-based-pc.200564/
