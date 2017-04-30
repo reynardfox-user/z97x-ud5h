@@ -19,6 +19,7 @@ This system is running stable for the most part. However, I had TONS of issues g
 
 ## What's Not Working
 * See list of issues
+* iPhoto will crash your Mac. Do not open it! See list of issues for more info.
 
 ## Brief Instructions (not finished)
 1. Use TonyMac's guide to create a bootable USB: https://www.tonymacx86.com/threads/unibeast-install-macos-sierra-on-any-supported-intel-based-pc.200564/
