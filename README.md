@@ -3,14 +3,18 @@
 ## Software
 
 - **macOS High Sierra 10.13.3**
-- Clover Clover v2.4k r4411
-- Clover Configurator 4.60.2.0
+- Clover Clover v2.4k r4920
+- Clover Global Configurator 5.4.3.1
 
 ## Hardware
 * **Case:** Fractal Design R5
-* **Motherboard:** Gigabyte z97x-ud5h (F8 BIOS)
 * **CPU:** Intel Core i7-4790K
-* **WiFi:** TP-LINK Archer T8E AC1750 (not using LAN)
+* **Motherboard:** Gigabyte z97x-ud5h
+    F8 BIOS
+    ALC1150 Audio
+	Qualcomm Atheros Killer E2201 LAN
+	Intel i217V LAN
+* **WiFi:** TP-LINK Archer T8E AC1750
 * **Storage:** Samsung 840 PRO SSD
 * **Graphics:** EVGA GTX 1060 6GB
 
@@ -32,13 +36,13 @@ Please check the Github issue tracker for an up-to-date list of issues.
 4. Install macOS Sierra (using TonyMac's guide)
 
 ## Mojave Upgrade?
-- https://www.insanelymac.com/forum/topic/334334-wipsuccess-z97x-ud5h-i7-4770k-running-mojave-beta-1/
-- https://www.tonymacx86.com/threads/readme-common-problems-and-workarounds-on-10-14-mojave.255823/
-- Seems like WhateverGreen is starting to become the standard for Graphics Fixes.
+* https://www.insanelymac.com/forum/topic/334334-wipsuccess-z97x-ud5h-i7-4770k-running-mojave-beta-1/
+* https://www.tonymacx86.com/threads/readme-common-problems-and-workarounds-on-10-14-mojave.255823/
+* Seems like WhateverGreen is starting to become the standard for Graphics Fixes.
 
 ## Similar Builds
-- https://github.com/AlJohri/hackintosh/tree/master/atul
-- https://www.tonymacx86.com/threads/success-build-macos-sierra-on-gigabyte-z97x-ud5h-i7-4770k-16gb-ram-gtx-760.215548/
+* https://github.com/AlJohri/hackintosh/tree/master/atul
+* https://www.tonymacx86.com/threads/success-build-macos-sierra-on-gigabyte-z97x-ud5h-i7-4770k-16gb-ram-gtx-760.215548/
 
 ## Useful Tools
 * TonyMac DSDT Library and Forums
@@ -46,6 +50,6 @@ Please check the Github issue tracker for an up-to-date list of issues.
 * Clover: awesome bootloader. Patches / adds stuff on the fly.
 * Clover Configurator: easiest way to mount EFI partitions and edit config.plist.
 * Nvidia Web Drivers
-- https://github.com/Benjamin-Dobell/nvidia-update
+* https://github.com/Benjamin-Dobell/nvidia-update
 * CUDA Drivers
-- https://github.com/walkman2021/PC-DSDT-Patches/blob/master/Gigabyte/Z97X_UD5H.txt
+* https://github.com/walkman2021/PC-DSDT-Patches/blob/master/Gigabyte/Z97X_UD5H.txt
